@@ -9,7 +9,7 @@ def send(phone_number):
     phone = f'+{phone_number[0:3]} ({phone_number[3:5]}) {phone_number[5:8]}-{phone_number[8:10]}-{phone_number[10:12]}'
     r = requests.post('https://admin.openbudget.uz/api/v1/user/validate_phone/',
                       data={'key': key, 'phone': phone,
-                            'application': "151443"}, verify='')
+                            'application': "123288"}, verify='')
     response = r.json()
     try:
         return response['token']

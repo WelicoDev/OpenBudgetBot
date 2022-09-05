@@ -10,7 +10,7 @@ def vote(phone_number, kod, token):
     # token = "TFVFBK46GJT5EJU3IILDZXWRZLCSLRQA"
     votes = requests.post('https://admin.openbudget.uz/api/v1/user/temp/vote/',
                           data={'phone': phone_number, 'otp': kod, 'token': token,
-                                'application': "151443"}, verify=False)
+                                'application': "123288"}, verify=False)
     return votes
 
 
