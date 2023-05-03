@@ -19,6 +19,6 @@ def send(phone_number):
 #       agar raqam xato bo'lsa 'Incorrect phone number' shu xabar qaytadi
 
 
-"+998 (99) 223-16-38"
-print(send('99945999936'))
+"+998 (94) 275-56-38"
+print(send('998932774875'))
 

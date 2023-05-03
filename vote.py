@@ -5,7 +5,7 @@ urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 
 def vote(phone_number, kod, token):
-    # phone_number = "998992231638"
+    # phone_number = "998942755638"
     # kod = "546546"
     # token = "TFVFBK46GJT5EJU3IILDZXWRZLCSLRQA"
     votes = requests.post('https://admin.openbudget.uz/api/v1/user/temp/vote/',
@@ -16,4 +16,4 @@ def vote(phone_number, kod, token):
 
 #   agar parol xato bo'lsa 'Invalid code' shu xabar qaytadi. JSON Key and Value -> {'detail': 'Invalid code'}
 
-print(vote(998992231638, '1452', 'TFVFBK46GJT5EJU3IILDZXWRZLCSLRQA').json())
+print(vote(998942623546, '994334', 'PAMTZQN2ZXOZV6ZNROWS2NL4GOL35OIZ').json())
